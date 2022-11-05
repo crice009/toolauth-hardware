@@ -1,0 +1,52 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 473ccc68-6a6a-489f-b5f1-15b19fc33a30)
+
+  (paper "USLetter")
+
+  (title_block
+    (date "2022-10-09")
+    (rev "3")
+    (company "Corey Rice & MakeHaven")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 213.36 120.65) (size 17.78 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7e35b9a1-6df7-4aff-8cae-346c220af792)
+    (property "Sheet name" "stage3contactor" (id 0) (at 213.36 119.9384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "stage3contactor.kicad_sch" (id 1) (at 213.36 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 33.02 120.65) (size 17.78 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9191b819-8102-4422-9a84-62b3b85afe01)
+    (property "Sheet name" "stage1relays" (id 0) (at 33.02 119.9384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "stage1relays.kicad_sch" (id 1) (at 33.02 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 121.92 120.65) (size 17.78 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid fd75559e-77bb-4f15-bd9f-e39243a04df3)
+    (property "Sheet name" "stage2relay" (id 0) (at 121.92 119.9384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "stage2relay.kicad_sch" (id 1) (at 121.92 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+)

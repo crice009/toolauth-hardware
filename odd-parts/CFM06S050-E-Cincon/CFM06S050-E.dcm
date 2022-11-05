@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CFM06S050-E
+D Switching Power Supplies AC-DC Open Frame, 6 Watt, Single Output, 5VDC Output, 1.2A, 78% Efficiency, Encapsulated
+K
+F https://www.cincon.com.tw/productdownload/SPEC-CFM06S-V12.pdf
+$ENDCMP
+#
+#End Doc Library
