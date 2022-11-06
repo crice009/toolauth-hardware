@@ -424,6 +424,7 @@
         "microvia_drill": 0.1,
         "name": "DC-Power",
         "nets": [
+          "+3.3V",
           "+3V3",
           "+5V",
           "/mainslevelcontrol/stage1relays/dcp2",
