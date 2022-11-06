@@ -112,6 +112,9 @@
   )
 
   (symbol_instances
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/740e4f3e-946f-48c4-82a6-c8aa8d008d86"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/72caadd5-963d-408a-b010-ddf83ca901da/8ad9606b-3cb2-4055-a018-57f59d3b80bc"
       (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
     )
@@ -499,11 +502,38 @@
     (path "/6f44f9bb-3a88-498d-9739-be3794f35f17/7e35b9a1-6df7-4aff-8cae-346c220af792/f11cc7db-4a2f-45ac-8624-07f887f21b2d"
       (reference "J14") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
     )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/9cd29753-9e37-46b4-8900-5fc89d7d7f2b"
+      (reference "JP1") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/09582c18-dbec-4e48-a7d2-c3014fb4066c"
+      (reference "JP2") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/ca989436-3566-468a-bc09-0b2791592d1a"
+      (reference "JP3") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/e6120ce9-c72f-4dd0-8b62-c35a137d53ef"
+      (reference "JP4") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/d16a08c7-93d4-494e-9405-fa51445b5292"
+      (reference "JP5") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/fc21d472-7771-4755-ad6e-a99780f1a32a"
       (reference "JP6") (unit 1) (value "bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/dc1e6d4a-b1e3-4817-8793-9b72683ce69f"
       (reference "JP7") (unit 1) (value "bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/1aaac642-8e89-45fb-85c8-83ddb08f93e9"
+      (reference "JP8") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/9ed2919a-1692-4355-ad34-9eb5a27780ea"
+      (reference "JP9") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/bc5dc7bc-5541-41a6-a8f6-7b016c2afef7"
+      (reference "JP10") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/dd8169f0-27b6-45cd-8cb9-79d10bad3058"
+      (reference "JP11") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/173c5ac9-f505-4f7c-923f-495fe0f06ee4"
       (reference "JP12") (unit 1) (value "bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
