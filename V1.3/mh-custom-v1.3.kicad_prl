@@ -37,7 +37,6 @@
       9,
       10,
       11,
-      12,
       13,
       14,
       15,
@@ -62,11 +61,11 @@
       35,
       36
     ],
-    "visible_layers": "fffffcf_ffffffff",
+    "visible_layers": "fffffef_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "mh-custom-v3.kicad_prl",
+    "filename": "mh-custom-v1.3.kicad_prl",
     "version": 3
   },
   "project": {

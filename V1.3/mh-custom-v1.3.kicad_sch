@@ -238,9 +238,6 @@
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/bd4e5cd4-957a-4ce6-9776-af484276b3d4"
       (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/1d9fcf81-c213-4715-a901-05787aaecbe1"
-      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
-    )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/e75820b1-82ab-436b-86cb-bf8c2beddde6"
       (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
     )
@@ -460,12 +457,6 @@
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/5f410b4c-62b8-404e-aac5-cb3dbc7baed4"
       (reference "IN-AUX-1") (unit 1) (value "H/L1") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/9dd5acec-5502-4b63-8885-193db48b2ba9"
-      (reference "IN-AUX-2") (unit 1) (value "N/L2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/44f8197b-fa52-42ed-9b9a-df5a232a9d92"
-      (reference "IN-AUX-3") (unit 1) (value "VOLTS") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/81a18511-eaf3-432b-97fd-f98743d18490"
       (reference "J1") (unit 1) (value "Conn_01x03_Male") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal")
     )
@@ -508,38 +499,11 @@
     (path "/6f44f9bb-3a88-498d-9739-be3794f35f17/7e35b9a1-6df7-4aff-8cae-346c220af792/f11cc7db-4a2f-45ac-8624-07f887f21b2d"
       (reference "J14") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
     )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/f17ba0ab-5d23-4dea-8bb9-114f82643c2e"
-      (reference "JP1") (unit 1) (value "VP-GND") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/f912ca07-31af-43c3-a59f-cc62c76d0e24"
-      (reference "JP2") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/ed1db67e-5bd0-40b6-9917-0545c18c4a82"
-      (reference "JP3") (unit 1) (value "no-filter-2") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/f81f5051-800b-44d5-b22a-ebb115d93bda"
-      (reference "JP4") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/c52e9eb4-a569-488a-a10f-9fe0c541d60e"
-      (reference "JP5") (unit 1) (value "no-filter-2") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/fc21d472-7771-4755-ad6e-a99780f1a32a"
       (reference "JP6") (unit 1) (value "bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/dc1e6d4a-b1e3-4817-8793-9b72683ce69f"
       (reference "JP7") (unit 1) (value "bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/6277b35b-c9c9-4acf-a0a4-39e9f6bf382d"
-      (reference "JP8") (unit 1) (value "48kHz-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/7e7f0db4-ec40-45f9-8d9f-c28f014d8a0a"
-      (reference "JP9") (unit 1) (value "48kHz-filter-2") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/22fff582-352c-4fb4-ae51-d747953fbc90"
-      (reference "JP10") (unit 1) (value "48kHz-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/7cc92260-a8df-491e-9748-f1a729d70549"
-      (reference "JP11") (unit 1) (value "48kHz-filter-2") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/03adfa84-7245-4a0a-b28d-db7d09a8f743/173c5ac9-f505-4f7c-923f-495fe0f06ee4"
       (reference "JP12") (unit 1) (value "bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")

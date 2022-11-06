@@ -359,7 +359,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mh-custom-v3.kicad_pro",
+    "filename": "mh-custom-v1.3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -393,15 +393,18 @@
         "name": "AC-Power",
         "nets": [
           "Green-Indicator-light-1",
+          "Green-Indicator-light-2",
           "H{slash}L1",
           "Member-E-Stop-aux1-1",
-          "Member-E-Stop-aux1-2",
           "Member-E-Stop-aux2-1",
           "Member-E-Stop-aux2-2",
+          "Member-E-Stop-sw1-1",
           "Member-E-Stop-sw2-1",
           "Member-Green-Button-1",
           "Member-Green-Button-2",
-          "N{slash}L2"
+          "Member-Red-Reset-Button-1",
+          "N{slash}L2",
+          "reset"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
