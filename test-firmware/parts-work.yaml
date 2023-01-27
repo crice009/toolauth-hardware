@@ -24,12 +24,45 @@ api:
   encryption:
     key: "PshkQJcQPu6gSwUX/ixnLBue6fTtERWyU3WqokLrh90="
   services:
+  #service for the simple test of the speaker
     - service: play_rtttl
       variables:
         song_str: string
       then:
-        - rtttl.play:
-            rtttl: !lambda 'return song_str;'
+        - rtttl.play: "mario:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p,8g,8p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,16p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16c7,16p,16c7,16c7,p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16d#6,8p,16d6,8p,16c6"
+  # called after Quart server determined the member authorized to use tool
+    - service: enable
+      variables:
+        session_id: int
+      then:
+        - globals.set:
+            id: toss_away_api_var
+            value: !lambda "return session_id;" #int type
+        - rtttl.play: "short_mario:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p"
+    # called after Quart server determined the member authorized to use tool
+    - service: disable
+      then:
+        - globals.set:
+            id: toss_away_api_var
+            value: 0 #int type
+        - rtttl.play: "short_mario:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p"
+    # card reader should show the correct response for the member
+    - service: reader_resp
+      variables:
+        response: int
+      then:
+        - globals.set:
+            id: toss_away_api_var
+            value: !lambda "return response;" #int type
+        - rtttl.play: "short_mario:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p"
+    # Member activated session on a different tool, from shared RFID reader
+    - service: other_picked
+      then:
+        - globals.set:
+            id: toss_away_api_var
+            value: 0 #int type
+        - rtttl.play: "short_mario:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p"
+
 
 ota:
   password: "d3281c2e8ad00b965c8bbb69717ce993"
@@ -53,6 +86,10 @@ pn532_i2c:
   update_interval: 1s
   
 globals:
+  - id: toss_away_api_var
+    type: int
+    restore_value: no
+    initial_value: 'false'
   - id: device_enabled
     type: bool
     restore_value: no #saves on memory to say no here
@@ -85,11 +122,6 @@ light:
     name: "Green LED"
     pin: GPIO33
     
-output:
-  - platform: ledc
-    pin: GPIO5
-    id: rtttl_out
-    
 switch:
   - platform: gpio
     pin: GPIO17
@@ -108,10 +140,14 @@ switch:
           id: device_enabled
           value: "false"
 
+output:
+  - platform: ledc
+    pin: GPIO5
+    id: rtttl_out
+    
 rtttl:
   output: rtttl_out
-  
-  #song_str: "mario:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p,8g,8p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,16p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16c7,16p,16c7,16c7,p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16d#6,8p,16d6,8p,16c6"
+  # song_str: "mario:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p,8g,8p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,16p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16c7,16p,16c7,16c7,p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16d#6,8p,16d6,8p,16c6"
   
 binary_sensor:
   - platform: gpio
