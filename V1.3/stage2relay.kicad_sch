@@ -684,7 +684,7 @@
   )
 
   (text "Switched by bypass\nor microcontroller\nand Stage 1-1 relay"
-    (at 53.34 97.79 0)
+    (at 53.34 97.79 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 01b6fcd8-7452-4872-8b02-8496ada00dee)
   )
