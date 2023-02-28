@@ -1110,6 +1110,7 @@
     )
   )
 
+
   (junction (at 67.31 167.64) (diameter 0) (color 0 0 0 0)
     (uuid 0da56530-7f81-4b94-819b-fe5c5b33da1b)
   )
@@ -1576,7 +1577,7 @@
     (uuid 7b5e6459-ec0a-4458-933e-d8105be67678)
   )
   (text "Buzzer controlling circuit\nruns buzzer at 5V always."
-    (at 228.6 72.39 180)
+    (at 228.6 72.39 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 82fbf1c0-d0dd-4579-a98a-3e6df859f7ca)
   )
