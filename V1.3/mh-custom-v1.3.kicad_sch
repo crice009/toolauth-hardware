@@ -25,7 +25,7 @@
     (uuid f53bef5d-2cc8-4f5f-b2f7-c50e505b3adb)
   )
 
-  (text "ToolAuth Hardware | Overview" (at 40.64 39.37 0)
+  (text "OpenShop Hardware | Overview" (at 40.64 39.37 0)
     (effects (font (size 5 5) (thickness 0.5) bold) (justify left bottom))
     (uuid 263a917f-5785-48e0-993a-40dec48716de)
   )
@@ -42,7 +42,7 @@
     (effects (font (size 1.75 1.75)) (justify left bottom))
     (uuid b4951989-c724-4b23-a717-a76551f1df46)
   )
-  (text "This 'ToolAuth' device is intended to help simplify the process of setting up and managing tool authorization control, in a shared workshop environment. \nSpecifically, this is designed for use at MakeHaven, in New Haven, Connecticut, USA from a previous solution. The circuit board shown here includes a \nplace for an ESP32-DEVKITC-V4+ microcontroller (with wifi) to sit into place, and manage the functions of theboard and ultimately control access to \npower a tool. However, through experience, MakeHaven knows it is also important to have a completely analog work-around to enable tools when the network-\nbased system goes down. For that reason, the tool can be granted unfiltered access with a bypass key, and this works regardless of the microcontroller, \neven if the microcontroller is completely absent. \n\nThis schematic is broken into several pages to better clarify the circuit surrounding each of the components. Global Labels have been heavily used to \nshow connections that span across sections and pages. Some of the components are shown for reference to be used with the circuit board, but are not \nthemselves on the circuit board design. \n"
+  (text "This 'OpenShop' device is intended to help simplify the process of setting up and managing tool authorization control, in a shared workshop environment. \nSpecifically, this is designed for use at MakeHaven, in New Haven, Connecticut, USA from a previous solution. The circuit board shown here includes a \nplace for an ESP32-DEVKITC-V4+ microcontroller (with wifi) to sit into place, and manage the functions of theboard and ultimately control access to \npower a tool. However, through experience, MakeHaven knows it is also important to have a completely analog work-around to enable tools when the network-\nbased system goes down. For that reason, the tool can be granted unfiltered access with a bypass key, and this works regardless of the microcontroller, \neven if the microcontroller is completely absent. \n\nThis schematic is broken into several pages to better clarify the circuit surrounding each of the components. Global Labels have been heavily used to \nshow connections that span across sections and pages. Some of the components are shown for reference to be used with the circuit board, but are not \nthemselves on the circuit board design. \n"
     (at 35.56 72.39 0)
     (effects (font (size 1.75 1.75)) (justify left bottom))
     (uuid b6c06f01-68a4-445d-9847-bc7bc38fecfe)
