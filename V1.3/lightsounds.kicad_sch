@@ -1576,7 +1576,7 @@
     (uuid 7b5e6459-ec0a-4458-933e-d8105be67678)
   )
   (text "Buzzer controlling circuit\nruns buzzer at 5V always."
-    (at 228.6 72.39 0)
+    (at 228.6 72.39 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 82fbf1c0-d0dd-4579-a98a-3e6df859f7ca)
   )
