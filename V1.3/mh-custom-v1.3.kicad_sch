@@ -16,7 +16,6 @@
   )
 
 
-
   (wire (pts (xy 91.44 139.7) (xy 193.04 139.7))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e409c250-7611-46bf-a72f-db15a916d878)
@@ -544,6 +543,12 @@
     )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/b1d7c921-377c-42f9-a94c-2490651523b2"
       (reference "JP14") (unit 1) (value "SolderJumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/2b42457a-c975-41ff-b7d9-cf91e8c20bb1"
+      (reference "JP?") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/a705ad85-2c36-40be-ad03-bdb9dcbb9ddc"
+      (reference "JP?") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/6f44f9bb-3a88-498d-9739-be3794f35f17/fd75559e-77bb-4f15-bd9f-e39243a04df3/b75edc47-7822-4285-8aa2-21aa1f33894f"
       (reference "LA1") (unit 1) (value "Lamp") (footprint "")
