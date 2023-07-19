@@ -82,7 +82,11 @@
     <h2>Mains User I/O</h2>
     <p>The green light, green button, and red button should all connect here as shown.</p>
     <img src="img/v1.3-power-io.png" style="width:min(100%, 600px);">
-
+    <hr/>
+    <h1>Other Notes</h1>
+    <p>The USB port onboard is there to supply 5V DC to any secondary boards that may one-day be added to the controller boxes. This could include (but is not limited to) e-Ink displays to report reservations or tool status.</p>
+    <p>The fuses must be in place for the board to function. 4Amps is the recomended value for these fuses, but 2A or 3A may work eaquilly well if 4A fuses are hard to source in this size. [5x20mm]</p>
+    <p>The ESP32 boards at the heart of these devices must be "ESP32-DevKitC" but this footprint can include many options. Commonly, we use the ESP32-WROOM-32D such as <a href="https://a.co/d/32LINiH">these</a>.</p>
 </body>
 
 </html>
