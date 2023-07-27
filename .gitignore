@@ -13,8 +13,8 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-mh-custom-v1.3-backups/
-reader-daughter-backups/
+mh-custom-v1.3-backups/*
+reader-daughter-backups/*
 
 # Netlist files (exported from Eeschema)
 *.net
