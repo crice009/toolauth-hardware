@@ -1686,6 +1686,10 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid efcd344a-38da-4d79-b7eb-5939904cadb1)
   )
+  (text "Lights, Sounds & Status" (at 39.37 35.56 0)
+    (effects (font (size 10 10) (thickness 2) bold italic) (justify left bottom))
+    (uuid f5a6218e-6ab6-4a8c-a99b-3bbb277c617f)
+  )
   (text "Using a few 'spare' pins, wee can read\nthe state of 4 dip switches to get \nfeedback in software about the board \nconfiguration (that we assume is correct)\n! see Docs for how to set switches !"
     (at 121.92 57.15 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

@@ -292,7 +292,7 @@
   )
   (text "Output to control the Contactor, and a light to show the state."
     (at 36.83 35.56 0)
-    (effects (font (size 2 2)) (justify left bottom))
+    (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid dc6368ee-5afe-4e71-a1bc-4967a46f2ae3)
   )
   (text "N-ON switch\nneeded for bypass mode" (at 92.71 132.08 0)

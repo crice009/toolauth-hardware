@@ -688,9 +688,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 01b6fcd8-7452-4872-8b02-8496ada00dee)
   )
-  (text "The previous Tool-Controller design was almost this section of the circuit (with simpler Microcontroller connection)."
+  (text "The previous Tool-Controller design was just this section of the circuit (with simpler Microcontroller connection)."
     (at 21.59 48.26 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.5 1.5)) (justify left bottom))
     (uuid 0d95b27e-8894-4549-8b27-544245c89688)
   )
   (text "Mains power needs connected here, and will power the whole box.\nExcept, perhaps, the tool. If more exotic power is needed.\n\nLabeled on PCB as H/L1 & N/L2 to cover the bases (that both may be live)."
@@ -712,7 +712,7 @@
   )
   (text "If there is a Stage 3 relay, then Stage 2 relay can have a lowered switching current -> down to approximately 2amps"
     (at 21.59 38.1 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.5 1.5)) (justify left bottom))
     (uuid 5b4eae8b-22de-4dcd-ba80-9fed16379da7)
   )
   (text "The E-Stop light runs at 5V, and is shown here\nbecuase it conceptually makes sense on the sheet.\n\nThis lamp-to-switch connection is done on the \nmodular E-Stop switches themselves, not any PCB. \n\nThe middle 'read-E-stop' informs the microcontroller."
@@ -761,7 +761,7 @@
   )
   (text "active self-latching of a relay   https://electronics.stackexchange.com/questions/223691/self-latching-relay"
     (at 21.59 30.48 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.5 1.5)) (justify left bottom))
     (uuid bc4195aa-09ed-4ec4-9152-4ff60c41bd91)
   )
   (text "Fuse Protected Power Inputs" (at 175.26 137.16 0)
@@ -801,7 +801,7 @@
   )
   (text "Provides the majority of the Member's interface experience\n"
     (at 21.59 43.18 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.5 1.5)) (justify left bottom))
     (uuid ec8d5a33-b48f-432f-ba56-4cc0c9a63662)
   )
   (text "This portion of the circuit allows the Stage 2 Relay to turn on & stay on.\nWhen enabled [by ESP32 or Bypass] a person can turn on the relay with the green button.\nOnce activated, the link from relay pin 5_to_13 'latch' the relay on while powered, until reset.\nThe \"Can-Turn-On\" light will shine if it is possible to 'set' the relay for any reason.\nThe light is important, because it shows a working system or if bypass mode is enabled by a key."

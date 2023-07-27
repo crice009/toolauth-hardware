@@ -14,9 +14,9 @@
   )
 
 
-  (text "This shows the relationships between all components running at 3.3VDC or 5VDC on the board. These are all on the 'low voltage' \nside of the board. These are all united in their service to the ESP32-DEVKITC-V4+ board, but that board itself is removable \n(for ease of programming and switching out the controller, without needing to rewire the tools). "
-    (at 35.56 40.64 0)
-    (effects (font (size 1.75 1.75)) (justify left bottom))
+  (text "This shows the relationships between all components running at 3.3VDC or 5VDC on the board. \nThese are all on the 'low voltage' side of the board. These are all united in their service \nto the ESP32-DEVKITC-V4+ board, but that board itself is removable (for ease of programming \nand switching out the controller, without needing to rewire the tools). "
+    (at 33.02 49.53 0)
+    (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid 1af02779-8fa2-4b8d-a301-24cbee7fdcd6)
   )
   (text "This is a collection of the simple circuits \nthat translate between voltage levels, break \nout the programming buttons for the ESP32, \ndescribe the DIP switches for configuration \nself-description, control the buzzer, and \ncontrol the indicator LEDs. Many of these \ncircuits use the 3.3V from the ESP32's \nonboard regulator.\n"
@@ -38,7 +38,7 @@
     (effects (font (size 1.75 1.75)) (justify left bottom))
     (uuid 5c0bf010-eec4-412c-a7fb-47851428f147)
   )
-  (text "Lights, Sounds & Buttons" (at 142.24 127 0)
+  (text "Lights, Sounds & Status" (at 142.24 127 0)
     (effects (font (size 3.5 3.5) bold) (justify left bottom))
     (uuid 8dc13897-b540-4b8a-adfb-a6145cbf6596)
   )
