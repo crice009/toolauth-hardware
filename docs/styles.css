@@ -6,3 +6,8 @@ body {
 p{
     max-width: 80ch;
 }
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width:max(99%, 750px);
+}

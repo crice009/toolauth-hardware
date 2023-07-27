@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <img src="social.png" width="60%" style="margin:auto;">
+    <img src="social.png" style="width:max(60%, 500px);"> 
     <a href="index.html">Home</a>
     <h1>Reader Daughter Board</h1>
     <hr/>
@@ -24,9 +24,13 @@
     <p>The gerber Files for this design are <a href="https://github.com/crice009/toolauth-hardware/raw/main/reader-daughter/reader-daughter-gerbers.zip">here</a>, and the <a href="https://raw.githubusercontent.com/crice009/toolauth-hardware/main/reader-daughter/gerbers/parts-assembly/reader-daughter-BOM.csv">BOM</a> and <a href="https://raw.githubusercontent.com/crice009/toolauth-hardware/main/reader-daughter/gerbers/parts-assembly/reader-daughter-top-pos.csv">position</a> files are formatted for ordering from <a href="https://jlcpcb.com/">JLCPCB</a>.</p>
     <hr/>
     <h2>Schematic</h2>
-    <object data="https://raw.githubusercontent.com/crice009/toolauth-hardware/3678eeb80ebd88e62bd7c520f0fd4116a5019972/reader-daughter/schematic.pdf" type="application/pdf" width="100%" height="100%">
-        <p>Reader Daughter Board Schematic - <a href="https://raw.githubusercontent.com/crice009/toolauth-hardware/3678eeb80ebd88e62bd7c520f0fd4116a5019972/reader-daughter/schematic.pdf">link to the PDF</a></p>
-    </object>
+    <script>
+        var url = 'https://raw.githubusercontent.com/crice009/toolauth-hardware/3678eeb80ebd88e62bd7c520f0fd4116a5019972/reader-daughter/schematic.pdf';
+    </script>
+    <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="script.js"></script>
+    <canvas id="the-canvas"></canvas>
+    <p><a href="https://raw.githubusercontent.com/crice009/toolauth-hardware/3678eeb80ebd88e62bd7c520f0fd4116a5019972/reader-daughter/schematic.pdf">Download complete schematic.</a></p>
     <hr/>
     <h2>Top and bottom of board</h2>
     <div>
