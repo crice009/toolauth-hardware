@@ -24,10 +24,18 @@
     <p><a href="https://raw.githubusercontent.com/crice009/toolauth-hardware/7eeae54f7607a041a097446be69f44f0605fca48/V1.3/schematic.pdf">Download complete schematic.</a> Schematic PDF is a snapshot in time, may be slightly out of date from the design files.</p>
     <hr/>
     <h1>E-Stop arrangements:</h1>
+    <p>Recomended components for each E-Stop:</p>
+    <ul>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/emergency_stop_pushbuttons/ar22v0l-01e3r">E-Stop assembly [ar22v0l-01e3r] - base of E-Stop switch</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbutton_-z-_switch_-z-_indicator_accessories/contact_blocks_-z-_mounting_flanges/ar9b291">NC Block extension [ar9b291] - second half E-Stop</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbutton_-z-_switch_-z-_indicator_accessories/contact_blocks_-z-_mounting_flanges/ar9b290">NO Logic switch [ar9b290] - feedback/control LED</a></li>
+        <li>1x <a href="https://a.co/d/0GzJoSd">BA9S white LED light for ~5Vdc (many options from auto industry)</a></li>
+    </ul>
     <hr/>
     <h2>Setting up an E-Stop switch</h2>
     <p>An E-Stop must be built from a multi-part switch system.         Each E-Stop should be comprised of two N-ON switches rated for more than 4A AC current, an indicator LED, and a low-voltage N-OFF switch.</p>
-    <p>What is shown below is how the two low-voltage components [lamp and switch] must be configured. The three outbound wires must be soldered to work with a JST connector. Their </p>
+    <p>What is shown below is how the two low-voltage components [lamp and switch] must be configured. The three outbound wires must be soldered to work with a JST connector. </p>
+    <p>There is one trick part to making an E-Stop: you need to connect the low-voltage components corrently at the switch, and then solder leads onto a JST female connector correctly. This can take some doing, and you will need to test these connections for each E-Stop switch that you assemble.</p>
     <div>
         <img src="img/estop-config.png" height="250px">
         <img src="img/estop-jst.png" height="250px">
@@ -94,6 +102,11 @@
     <hr/>
     <h2>Mains User I/O</h2>
     <p>The green light, green button, and red button should all connect here as shown.</p>
+    <ul>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3102">Green N.O. button [gcx3102]</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3101">Red N.C. button [gcx3101]</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/indicating_lights/dr30d0l-e3gzc">Domed Green light [DR30D0L-E3GZC]</a> or <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/indicating_lights/ecx2052-24l">Flat green Light, cheaper [ECX2052-24L]</a></li>
+    </ul>
     <img src="img/v1.3-power-io.png" style="width:min(100%, 600px);">
     <hr/>
     <h1>Other Notes</h1>
