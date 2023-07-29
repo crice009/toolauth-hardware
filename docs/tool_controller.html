@@ -28,16 +28,17 @@
     <h1>E-Stop arrangements:</h1>
     <p>Recommended components for each E-Stop:</p>
     <ul>
-        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/emergency_stop_pushbuttons/ar22v0l-01e3r">E-Stop assembly [ar22v0l-01e3r] - base of E-Stop switch</a></li>
-        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbutton_-z-_switch_-z-_indicator_accessories/contact_blocks_-z-_mounting_flanges/ar9b291">NC Block extension [ar9b291] - second half E-Stop</a></li>
-        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbutton_-z-_switch_-z-_indicator_accessories/contact_blocks_-z-_mounting_flanges/ar9b290">NO Logic switch [ar9b290] - feedback/control LED</a></li>
-        <li>1x <a href="https://a.co/d/0GzJoSd">BA9S white LED light for ~5Vdc (many options from auto industry)</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/emergency_stop_pushbuttons/ar22v0l-01e3r" target="_blank" rel="noopener noreferrer">E-Stop assembly [ar22v0l-01e3r] - base of E-Stop switch</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbutton_-z-_switch_-z-_indicator_accessories/contact_blocks_-z-_mounting_flanges/ar9b291" target="_blank" rel="noopener noreferrer">NC Block extension [ar9b291] - second half E-Stop</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbutton_-z-_switch_-z-_indicator_accessories/contact_blocks_-z-_mounting_flanges/ar9b290" target="_blank" rel="noopener noreferrer">NO Logic switch [ar9b290] - feedback/control LED</a></li>
+        <li>1x <a href="https://a.co/d/0GzJoSd" target="_blank" rel="noopener noreferrer">BA9S white LED light for ~5Vdc (many options from auto industry)</a></li>
     </ul>
     <hr/>
     <h2>Setting up an E-Stop switch</h2>
     <p>An E-Stop must be built from a multi-part switch system. Each E-Stop should comprise two N-ON switches rated for more than 4A AC current, an indicator LED, and a low-voltage N-OFF switch.</p>
     <p>What is shown below is how the two low-voltage components [lamp and switch] must be configured. The three outbound wires must be soldered to work with a JST connector. </p>
-    <p>There is one trick part to making an E-Stop: you need to connect the low-voltage components correctly with wires at the switch, and then solder leads onto a JST female connector correctly. This can take some doing, and you will need to test these connections for each E-Stop switch that you assemble.</p>
+    <p>There is one trick part to making an E-Stop: you need to connect the low-voltage components correctly with wires at the switch, and then solder leads onto a JST female connector correctly. This can take some doing, and you will need to test these
+        connections for each E-Stop switch that you assemble.</p>
     <div>
         <img src="img/estop-config.png" height="250px">
         <img src="img/estop-jst.png" height="250px">
@@ -56,10 +57,11 @@
     <h2>No E-Stops</h2>
     <p>This configuration is only for the very safest of tools, when the control box is perhaps undersized.</p>
     <p>Jumpers will need to be placed where the blue 'U' shapes show connections for E-Stops A & B. Do not use the E-Stop-A or E-Stop-B JST plugs.</p>
-    <img src="img/v1.3-no-estop.png" style="width:min(100%, 600px);"">
+    <img src="img/v1.3-no-estop.png" style="width:min(100%, 600px);" ">
     <hr/>
     <h1>Current Sensor</h1>
-    <p>The CT current sensor will be plugged into a 1/8" jack in this location. The current sensor itself should be of <a href="https://a.co/d/4anaNE2">this</a> kind of simple split-ring inductive sensor. The exact current rating of the sensor is not critical, but should be slightly above the value of the tool's circuit breaker; adjustments can be made in the firmware `offset` setting. [30A is a good fit for most.]</p>
+    <p>The CT current sensor will be plugged into a 1/8" jack in this location. The current sensor itself should be of <a href="https://a.co/d/4anaNE2">this</a> kind of simple split-ring inductive sensor. The exact current rating of the sensor is
+    not critical, but should be slightly above the value of the tool's circuit breaker; adjustments can be made in the firmware `offset` setting. [30A is a good fit for most.]</p>
     <p>The current sensor should be clamped around the 'hot' line headed out to the tool, from the contactor.</p>
     <div>
         <img src="img/current-clamp.jpg" height="250px">
@@ -68,14 +70,15 @@
     <hr/>
     <h1>I2C Card Reader</h1>
     <p>The RFID card reader connects using one of the two available I2C connections (it does not matter which of these).</p>
-    <p>The PN532 board should be like those shown <a href="https://a.co/d/duoIX52">here</a>. They should be configured for I2C communication (switch DIP as needed) and have wires soldered to leave the flattest-possible surface to mount the board.</p>
+    <p>The PN532 board should be like those shown <a href="https://a.co/d/duoIX52" target="_blank" rel="noopener noreferrer">here</a>. They should be configured for I2C communication (switch DIP as needed) and have wires soldered to leave the flattest-possible
+        surface to mount the board.</p>
     <div>
         <img src="img/pn532-board.jpg" height="250px">
         <img src="img/v1.3-i2c.png" height="250px">
     </div>
     <hr/>
     <h1>Bypass Key</h1>
-    <p>The controller box will need a bypass key-switch, such as those shown <a href="https://a.co/d/hHKVJxG">here</a>. This switch will need to connect to a 2-pin JST connector as shown on the board.</p>
+    <p>The controller box will need a bypass key-switch, such as those shown <a href="https://a.co/d/hHKVJxG" target="_blank" rel="noopener noreferrer">here</a>. This switch will need to connect to a 2-pin JST connector as shown on the board.</p>
     <div>
         <img src="img/key-switch.jpg" height="250px">
         <img src="img/v1.3-bypass.png" height="250px">
@@ -105,16 +108,17 @@
     <h2>Mains User I/O</h2>
     <p>The green light, green button, and red button should all connect here as shown.</p>
     <ul>
-        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3102">Green N.O. button [gcx3102]</a></li>
-        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3101">Red N.C. button [gcx3101]</a></li>
-        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/indicating_lights/dr30d0l-e3gzc">Domed Green light [DR30D0L-E3GZC]</a> or <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/indicating_lights/ecx2052-24l">Flat green Light, cheaper [ECX2052-24L]</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3102" target="_blank" rel="noopener noreferrer">Green N.O. button [gcx3102]</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3101" target="_blank" rel="noopener noreferrer">Red N.C. button [gcx3101]</a></li>
+        <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/indicating_lights/dr30d0l-e3gzc" target="_blank" rel="noopener noreferrer">Domed Green light [DR30D0L-E3GZC]</a> or <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/indicating_lights/ecx2052-24l"
+                target="_blank" rel="noopener noreferrer">Flat green Light, cheaper [ECX2052-24L]</a></li>
     </ul>
     <img src="img/v1.3-power-io.png" style="width:min(100%, 600px);">
     <hr/>
     <h1>Other Notes</h1>
     <p>The USB port onboard is there to supply 5V DC to any secondary boards that may one-day be added to the controller boxes. This could include (but is not limited to) e-Ink displays to report reservations or tool status.</p>
     <p>The fuses must be in place for the board to function. 4 Amps is the recommended value for these fuses, but 2A or 3A may work equally well if 4A fuses are hard to source in this size. [5x20mm]</p>
-    <p>The ESP32 boards at the heart of these devices must be "ESP32-DevKitC" but this footprint can include many options. Commonly, we use the ESP32-WROOM-32D such as <a href="https://a.co/d/32LINiH">these</a>.</p>
+    <p>The ESP32 boards at the heart of these devices must be "ESP32-DevKitC" but this footprint can include many options. Commonly, we use the ESP32-WROOM-32D such as <a href="https://a.co/d/32LINiH" target="_blank" rel="noopener noreferrer">these</a>.</p>
 </body>
 
 </html>
