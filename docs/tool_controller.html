@@ -24,6 +24,7 @@
     <script src="script.js"></script>
     <canvas id="the-canvas"></canvas>
     <p><a href="https://raw.githubusercontent.com/crice009/toolauth-hardware/7eeae54f7607a041a097446be69f44f0605fca48/V1.3/schematic.pdf">Download complete schematic.</a> Schematic PDF is a snapshot in time, may be slightly out of date from the design files.</p>
+    <p>The entire Tool Controller is designed to fit inside a specific <a href="https://ironforgetools.com/products/outdoor-electrical-junction-box-9-x-7-inch-dustproof-waterproof-plastic-universal-durable-hinged-project-enclosure-cover">7X9 inch weatherproof electrical box</a>.</p>
     <hr/>
     <h1>E-Stop arrangements:</h1>
     <p>Recommended components for each E-Stop:</p>
@@ -96,6 +97,7 @@
     <hr/>
     <h2>Incoming Power</h2>
     <p>The power lines must be connected as shown, with the correct polarity for any single-phase applications. 'H' for the Hot line. 'N' for the neutral line.</p>
+    <p>If two-phase power is being used, you can connect the two phases here, and polarity will not matter. This should even work if you're using 2 of 3 phases (but that is untested).</p>
     <img src="img/v1.3-mains.png" style="width:min(100%, 600px);">
     <hr/>
     <h2>Out to Contactor</h2>
@@ -104,6 +106,7 @@
     <hr/>
     <h2>Mains User I/O</h2>
     <p>The green light, green button, and red button should all connect here as shown.</p>
+    <p>It is critical that the green button is Normally Open, and the red button is Normally Closed.</p>
     <ul>
         <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3102">Green N.O. button [gcx3102]</a></li>
         <li>1x <a href="https://www.automationdirect.com/adc/shopping/catalog/pushbuttons_-z-_switches_-z-_indicators/pushbuttons/gcx3101">Red N.C. button [gcx3101]</a></li>
