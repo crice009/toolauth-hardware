@@ -341,7 +341,7 @@
       (reference "BZ1") (unit 1) (value "Buzzer") (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6")
     )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/7f00934a-6c71-487b-af9d-b4a2acfe06e3"
-      (reference "Boot-1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "Boot1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
     (path "/6f44f9bb-3a88-498d-9739-be3794f35f17/9191b819-8102-4422-9a84-62b3b85afe01/af775df8-347a-494a-ba97-12cef91155ac"
       (reference "Bypass-1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
@@ -427,14 +427,14 @@
     (path "/6f44f9bb-3a88-498d-9739-be3794f35f17/9191b819-8102-4422-9a84-62b3b85afe01/bbf78595-b248-411e-977a-e22b668912dc"
       (reference "D4") (unit 1) (value "B160-E3") (footprint "Diode_SMD:D_SMA")
     )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/ad0f48f2-5423-4693-8637-6fd9d8e6373c"
+      (reference "EN1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+    )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/f2e3f77d-33e8-4116-9ad5-aa7ea681de40"
-      (reference "E-Stop-1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
+      (reference "EStop1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
     )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/7e41b53d-1c10-44d7-945d-fe6f2cd499b4"
-      (reference "E-Stop-2") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
-    )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/ad0f48f2-5423-4693-8637-6fd9d8e6373c"
-      (reference "EN-1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "EStop2") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
     )
     (path "/6f44f9bb-3a88-498d-9739-be3794f35f17/fd75559e-77bb-4f15-bd9f-e39243a04df3/847c94dd-b84d-4235-be43-419c321ccb0f"
       (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open")
@@ -544,11 +544,11 @@
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/b1d7c921-377c-42f9-a94c-2490651523b2"
       (reference "JP14") (unit 1) (value "SolderJumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm")
     )
-    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/2b42457a-c975-41ff-b7d9-cf91e8c20bb1"
-      (reference "JP?") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
     (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/a705ad85-2c36-40be-ad03-bdb9dcbb9ddc"
-      (reference "JP?") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP15") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/3f0e9b91-fe15-47d5-84d6-aa71b368b91e/cdc711b4-3986-4d05-ace8-22e18ebb4f7d/2b42457a-c975-41ff-b7d9-cf91e8c20bb1"
+      (reference "JP16") (unit 1) (value "no-filter-1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/6f44f9bb-3a88-498d-9739-be3794f35f17/fd75559e-77bb-4f15-bd9f-e39243a04df3/b75edc47-7822-4285-8aa2-21aa1f33894f"
       (reference "LA1") (unit 1) (value "Lamp") (footprint "")
