@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      inkscape:zoom="1.6739127"
      inkscape:cx="329.1689"
-     inkscape:cy="433.41567"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cy="432.81827"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs1" />
   <g
@@ -242,64 +242,61 @@
       </g>
     </g>
     <g
-       id="g9-0"
-       transform="rotate(-90,145.54564,184.07442)"
-       inkscape:label="Green Button">
-      <g
-         id="g8-1">
-        <rect
-           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:0.2, 0.6;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect2-2-8"
-           width="29.799999"
-           height="39.799999"
-           x="195.53593"
-           y="138.74989" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, @wght=600';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 600;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+       id="g8-1"
+       transform="rotate(-90,145.54564,184.07442)">
+      <rect
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:0.2, 0.6;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2-2-8"
+         width="29.799999"
+         height="39.799999"
+         x="195.53593"
+         y="138.74989" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, @wght=600';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 600;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         x="199.64815"
+         y="141.55319"
+         id="text4-0-5"><tspan
+           sodipodi:role="line"
+           id="tspan4-7-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Consolas;-inkscape-font-specification:'Consolas, @wght=600';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 600;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
            x="199.64815"
-           y="141.55319"
-           id="text4-0-5"><tspan
-             sodipodi:role="line"
-             id="tspan4-7-4"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Consolas;-inkscape-font-specification:'Consolas, @wght=600';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 600;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-             x="199.64815"
-             y="141.55319">switch area</tspan></text>
-      </g>
+           y="141.55319">switch area</tspan></text>
+    </g>
+    <g
+       id="g7-7"
+       transform="rotate(-90,145.54564,184.07442)">
       <g
-         id="g7-7">
-        <g
-           id="g6-3">
-          <circle
-             style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
-             id="circle2-0-8"
-             cx="210.43593"
-             cy="158.64989"
-             r="0.65000004" />
-          <circle
-             style="font-variation-settings:'wght' 600;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="path6-3"
-             cx="210.43593"
-             cy="158.64989"
-             r="11.25" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-size:4.93889px;line-height:1.25;font-family:Oswald;-inkscape-font-specification:'Oswald, @wght=600';font-variation-settings:'wght' 600;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="210.48955"
-           y="156.90012"
-           id="text2-5-8"><tspan
-             sodipodi:role="line"
-             id="tspan2-2-1"
-             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-             x="210.48955"
-             y="156.90012">Green Button</tspan><tspan
-             sodipodi:role="line"
-             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-             x="210.48955"
-             y="163.07373"
-             id="tspan3-3-4">45mm depth</tspan></text>
+         id="g6-3">
+        <circle
+           style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
+           id="circle2-0-8"
+           cx="210.43593"
+           cy="158.64989"
+           r="0.65000004" />
+        <circle
+           style="font-variation-settings:'wght' 600;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path6-3"
+           cx="210.43593"
+           cy="158.64989"
+           r="11.25" />
       </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1.25;font-family:Oswald;-inkscape-font-specification:'Oswald, @wght=600';font-variation-settings:'wght' 600;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="210.48955"
+         y="156.90012"
+         id="text2-5-8"><tspan
+           sodipodi:role="line"
+           id="tspan2-2-1"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="210.48955"
+           y="156.90012">Green Button</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="210.48955"
+           y="163.07373"
+           id="tspan3-3-4">45mm depth</tspan></text>
     </g>
     <g
        id="g24"
