@@ -18,9 +18,9 @@
 
     <body>
         <img src="social.png" style="width:max(60%, 500px);"> 
-        <p id="tldr">TLDR: the designs are described withtin <a href="https://github.com/crice009/toolauth-hardware">this repo</a>. Assembly instructions at the <a href="#assemble">bottom</a>...</p>
+        <p id="tldr">TLDR: the designs are described withtin <a href="https://github.com/crice009/toolauth-hardware" style="color:lightblue">this repo</a>. Board details at the <a href="#assemble" style="color:lightblue">bottom</a>...</p>
         <h1>Where might this system be useful?</h1>
-        <p>First, who might want to use a system to control access to tools? Let's introduce you to MakeHaven, a nonprofit makerspace in New Haven, Connecticut, USA:</p>
+        <p>First, who might want to use a system to control access to tools? Let's introduce you to MakeHaven, a nonprofit Fab Lab/ Makerspace in New Haven, Connecticut, USA:</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qBZH4NdUpAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p>Tool authorization has been a safety mainstay of MakeHaven for years. This is the hardware that makes that safety measure possible. It has gone through several generations, and contributions from many individuals.</p>
         <h2><mark>High Level Overview:</mark></h2>
@@ -62,11 +62,11 @@
         </p>
         <h3>RFID Reader Board</h3>
         <p>
-            Often, it is helpful to have an RFID card reader that is in a different location than the tool or door activator that is related. The design of this small baord is just enough to connect an ESP32 to an I2C card reader and the small amount of hardware to make an effective stand-alone card reader.
+            Often, it is helpful to have an RFID card reader that is in a different location than the tool or door activator that is related. The design of <a href="reader_daughter.html">this small baord</a> is just enough to connect an ESP32 to an I2C card reader and the small amount of hardware to make an effective stand-alone card reader.
             As a sheer bonus, there is enough space added in for a <a href="https://esphome.io/components/display/waveshare_epaper.html">Waveshare E-paper Display</a> in case that may be useful to the system in the future.
         </p>
         <hr/>
-        <h1 id="assemble">Assembly Instructions</h1>
+        <h1 id="assemble">Board Details</h1>
         <ul style="font-size: x-large;">
             <li><a href="tool_controller.html">Tool Controller Board</a></li>
             <li><a href="reader_daughter.html">Reader Daughter Board</a></li>

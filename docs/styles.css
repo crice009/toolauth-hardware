@@ -29,3 +29,6 @@ p{
   margin: 4px 2px;
   cursor: pointer;
 }
+ul li{
+  padding: 12px;
+}
