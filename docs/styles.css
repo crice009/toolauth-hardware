@@ -32,3 +32,61 @@ p{
 ul li{
   padding: 0.5em;
 }
+
+/* Table Properties */
+table.docutils{
+  width: 80%;
+}
+table.docutils td, table.docutils th {
+    border: 1px solid #888;
+    padding: 0.25em 0.7em;
+}
+table.docutils td, table.docutils th {
+    padding: 1px 8px 1px 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #aaa;
+}
+div.body td {
+    text-align: left;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table.docutils {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-collapse: collapse;
+}
+/* END Table Properties */
+
+/* Code Example*/
+
+pre{
+  color: #e6edf3;
+  overflow: auto;
+  overflow-y: hidden;
+  clear: both;
+  font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+  font-size: 0.9em;
+  background: #EEE;
+  padding: 7px 30px;
+  line-height: 125%;
+  background-color: #0d1117;
+  margin: 0;
+  border-radius: 20px;
+}
+
+span.nt{
+  color: #7ee787;
+  margin: 0;
+
+}
+.l, .no{
+  color: #a5d6ff;
+}
+
+/* END Code Example*/
