@@ -78,6 +78,9 @@
     </div>
     <hr/>
     <h2>Waveshare E-Ink Connection</h2>
+    <div>
+        <img src="img/eink.jpg" height="250px">
+    </div>
     <p>ESPHome has good integration for <a href="https://esphome.io/components/display/waveshare_epaper.html">Waveshare E-Paper displays</a>. Here are the configuration options for using the E-Ink display.</p>
     <table class="docutils align-default">
         <tbody>
@@ -149,16 +152,21 @@
             <hr/>
             <h2>Buzzer</h2>
             <p>A little noise is great feedback. A 12mm buzzer such as <a href="https://a.co/d/hux467i">this one</a> can be soldered into place easily. The polarity and controlling pins have been silkscreened onto both sides of the board, to faciliate easier use with either choice of placement.</p>
-            <p><mark>Often the Buzzer will be soldered directly onto the back of these boards - watch polarity.</mark></p>
+            <p><mark>Often the Buzzer will be soldered directly onto the back of these boards - watch the polarity while soldering.</mark></p>
             <div>
+                <img src="img/buzz.jpg" height="250px">
                 <img src="img/rd-buzzer.png" height="250px">
             </div>
             <hr/>
             <h2>Red/Green LED</h2>
             <p>Indicator LEDs can provide great feedback to a used. Two-color LEDs like <a href="https://a.co/d/f0ygv3q">this</a> may be an old-solution, but they do a great job as indicators without taking many pins. including a full RGB LEd is possible on this board, but avoided to stay inline with the paired <a href="tool_controller.html">tool-controller</a> boards that can only fit this pinout.</p>
-            <p>The pin spacing here is perfect for one of the LEDs on its own, or to solder in a small terminal block. <mark>Often the R/G LED will be soldered directly onto the back of these boards - watch polarity.</mark></p>
+            <p>Two 1k resistors are used to regulate current to the LED, but jumpers JP1 and JP2 are in parallel with these resistors. If resistors wired inline with the LED off-board, you can solder bridge each jumper to short out the default 1k resistors. This will also allow you to configure the resistance values as you wish: just don't forget resistors for the LED.</p>
+            <p>The pin spacing here is perfect for one of the 5mm R/G LEDs on its own, or to solder in a small terminal block. <mark>Often the R/G LED will be soldered directly onto the back of these boards - watch the polarity while soldering.</mark></p>
             <div>
                 <img src="img/rd-led.png" height="250px">
+                <img src="img/led.jpg" height="250px">
+                <img src="img/rd-rear-led.png" height="250px">
+
             </div>
 </body>
 
