@@ -160,7 +160,7 @@
             <hr/>
             <h2>Red/Green LED</h2>
             <p>Indicator LEDs can provide great feedback to a used. Two-color LEDs like <a href="https://a.co/d/f0ygv3q">this</a> may be an old-solution, but they do a great job as indicators without taking many pins. including a full RGB LEd is possible on this board, but avoided to stay inline with the paired <a href="tool_controller.html">tool-controller</a> boards that can only fit this pinout.</p>
-            <p>Two 1k resistors are used to regulate current to the LED, but jumpers JP1 and JP2 are in parallel with these resistors. If resistors wired inline with the LED off-board, you can solder bridge each jumper to short out the default 1k resistors. This will also allow you to configure the resistance values as you wish: just don't forget resistors for the LED.</p>
+            <p>Two 1k resistors are used to regulate current to the LEDs, but jumpers JP1 and JP2 are in parallel with these resistors. If resistors are wired inline with the LED off-board [presumably on panel-mount LED, connected by a few pigtails] you can solder bridge each jumper to short out the default 1k resistors. This will also allow you to configure the resistance values as you wish: just don't forget resistors for the LED.</p>
             <p>The pin spacing here is perfect for one of the 5mm R/G LEDs on its own, or to solder in a small terminal block. <mark>Often the R/G LED will be soldered directly onto the back of these boards - watch the polarity while soldering.</mark></p>
             <div>
                 <img src="img/rd-led.png" height="250px">
