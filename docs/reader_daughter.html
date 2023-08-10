@@ -19,7 +19,7 @@
         <a href="https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware" target="_blank" rel="noopener noreferrer">Olimex-POE</a> or an <a href="https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware" target="_blank"
             rel="noopener noreferrer">Olimex-POE-ISO board</a>.</p>
     <div>
-        <img src="img/rd-design.png" height="250px">
+        <img src="img/rd-design.png" style="width:max(90%, 500px);">
     </div>
     <p>The design shown above allows the easy connection of a few types of microcontrollers to common devices. These can be used for card-readers of E-Ink displays among other things.</p>
     <p>The red-covered components are shown, but not included in the most recent production-run of the board: It is commonly convenient to solder these components in later, as you may want them configured differently for different applications. For example, although shown on the top here, the buzzer will often be placed on the bottom of the board to direct the noise outward.</p>
@@ -37,8 +37,8 @@
     <hr/>
     <h1>Top and bottom of board</h1>
     <div>
-        <img src="img/rd-front.png" height="250px">
-        <img src="img/rd-back.png" height="250px">
+        <img src="img/rd-front.png" height="350px">
+        <img src="img/rd-back.png" height="350px">
     </div>
     <hr/>
     <h1>3D models of Board Holders</h1>
@@ -49,7 +49,7 @@
         <li><a href="https://a360.co/3q8p0LA" target="_blank" rel="noopener noreferrer">Olimex rear-mounted (POE) box</a></li>
     </ul>
     <p>Here is a rendered example of the first of these designs:</p>
-    <iframe src="https://myhub.autodesk360.com/ue2b591a9/g/shares/SH512d4QTec90decfa6ed8a2353edbe67b1f" style="width:max(100%, 850px);aspect-ratio: 1;" title="Iframe Example"></iframe>
+    <iframe src="https://myhub.autodesk360.com/ue2b591a9/g/shares/SH512d4QTec90decfa6ed8a2353edbe67b1f" style="width:min(95%, 850px);aspect-ratio: 1;" title="Iframe Example"></iframe>
     <hr/>
     <h1>Detailed Explanation of Parts</h1>
     <p>There are a handful of places to interact with this board. They are explained below.</p>
@@ -59,27 +59,27 @@
     <p>First is the <a href="https://www.espressif.com/en/products/devkits/esp32-devkitc">ESP32-DevKitC-V4+ group of boards</a> that are commonly <a href="https://a.co/d/isbnsil">available for sale online</a>. These boards fit into the longer (19 pin) pair of headers.</p>
     <p>Second is the <a href="https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware">Olimex ESP32-POE</a> or the <a href="https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware">Olimex ESP32-POE-ISO</a> boards. These both fit on the 10-pin headers.</p>
     <div>
-        <img src="img/rd-esp32.png" height="250px">
-        <img src="img/rd-poe.png" height="250px">
+        <img src="img/rd-esp32.png" height="350px">
+        <img src="img/rd-poe.png" height="350px">
     </div>
     <hr/>
     <h2>I2C Connector</h2>
     <p>For this project, <mark>this is where the card reader will connect.</mark>I2C communication is generally helpful for most types of chip-to-chip communication.</p>
     <p>On the front, there is the JST connector, and two open spots where you could add resisitors. On the back of the baord there are two already-connected jumpers. These resistors and spaces for more are all in place because of the need for I2C communication to have pull-up resistors. The default state is to use the pull-up resistors on the microcontroller. If you need more resistance (because of spotty communication) you can cut the trace between the pads on JP3 and JP4 to add in the 2.2k resistors that are already soldered in parallel to the jumpers. IF you find that this still doesn't solve your communication problems, then you can solder in whatever resistors work of your application in the open spaces for R7 and R8. Hopefully, all these pull-up resistors will not be needed, and you can leave the setup as-is.</p>
     <div>
-        <img src="img/rd-i2c.png" height="250px">
-        <img src="img/rd-rear-i2c.png" height="250px">
+        <img src="img/rd-i2c.png" height="350px">
+        <img src="img/rd-i2c-rear.png" height="350px">
     </div>
     <hr/>
     <h2>SPI Communication</h2>
     <p>An SPI connector was added because it may be helpful for general use. There is no specific reason it is there, but perrhaps on will present itself...</p>
     <div>
-        <img src="img/rd-spi.png" height="250px">
+        <img src="img/rd-spi.png" height="350px">
     </div>
     <hr/>
     <h2>Waveshare E-Ink Connection</h2>
     <div>
-        <img src="img/eink.jpg" height="250px">
+        <img src="img/eink.jpg" height="350px">
     </div>
     <p>ESPHome has good integration for <a href="https://esphome.io/components/display/waveshare_epaper.html">Waveshare E-Paper displays</a>. Here are the configuration options for using the E-Ink display. But be warned, you may want to read more about <a href="https://esphome.io/components/display/#fonts">fonts in ESPHome</a> before you start copy/paste-ing this willy nilly.</p>
     <table class="docutils align-default">
@@ -146,16 +146,20 @@
             </pre>
             <p>Finally, the pinout for the Waveshare is located here, and labeled on the back of the board for easier soldering of the often-included display connector cables. Here is an <a href="https://www.waveshare.com/2.9inch-e-paper-module.htm">example of the waveshare boards</a>, but they are available from many resellers, including <a href="https://a.co/d/dse3aka">Amazon</a>.</p>
             <div>
-                <img src="img/rd-waveshare.png" height="250px">
-                <img src="img/rd-rear.png" height="250px">
+                <img src="img/rd-waveshare.png" height="350px">
+                <img src="img/rd-waveshare-rear.png" height="350px">
             </div>
             <hr/>
             <h2>Buzzer</h2>
             <p>A little noise is great feedback. A 12mm buzzer such as <a href="https://a.co/d/hux467i">this one</a> can be soldered into place easily. The polarity and controlling pins have been silkscreened onto both sides of the board, to faciliate easier use with either choice of placement.</p>
             <p><mark>Often the Buzzer will be soldered directly onto the back of these boards - watch the polarity while soldering.</mark></p>
             <div>
-                <img src="img/buzz.jpg" height="250px">
-                <img src="img/rd-buzzer.png" height="250px">
+                <img src="img/rd-buzzer-rear-unpop.png" height="350px">
+                <img src="img/buzz.jpg" height="350px">
+            </div>
+            <div>
+                <img src="img/rd-buzzer-rear.png" height="350px">
+                <img src="img/rd-buzzer.png" height="350px">
             </div>
             <hr/>
             <h2>Red/Green LED</h2>
@@ -163,9 +167,12 @@
             <p>Two 1k resistors are used to regulate current to the LEDs, but jumpers JP1 and JP2 are in parallel with these resistors. If resistors are wired inline with the LED off-board [presumably on panel-mount LED, connected by a few pigtails] you can solder bridge each jumper to short out the default 1k resistors. This will also allow you to configure the resistance values as you wish: just don't forget resistors for the LED.</p>
             <p>The pin spacing here is perfect for one of the 5mm R/G LEDs on its own, or to solder in a small terminal block. <mark>Often the R/G LED will be soldered directly onto the back of these boards - watch the polarity while soldering.</mark></p>
             <div>
-                <img src="img/rd-led.png" height="250px">
-                <img src="img/led.jpg" height="250px">
-                <img src="img/rd-rear-led.png" height="250px">
+                <img src="img/rd-led-rear-unpop.png" height="350px">
+                <img src="img/led.jpg" height="350px">
+            </div>
+            <div>
+                <img src="img/rd-led-rear.png" height="350px">
+                <img src="img/rd-led.png" height="350px">
 
             </div>
 </body>
