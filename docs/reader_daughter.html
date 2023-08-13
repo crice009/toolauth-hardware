@@ -66,6 +66,7 @@
     <h2>I2C Connector</h2>
     <p>For this project, <mark>this is where the card reader will connect.</mark>I2C communication is generally helpful for most types of chip-to-chip communication.</p>
     <p>On the front, there is the JST connector, and two open spots where you could add resisitors. On the back of the baord there are two already-connected jumpers. These resistors and spaces for more are all in place because of the need for I2C communication to have pull-up resistors. The default state is to use the pull-up resistors on the microcontroller. If you need more resistance (because of spotty communication) you can cut the trace between the pads on JP3 and JP4 to add in the 2.2k resistors that are already soldered in parallel to the jumpers. IF you find that this still doesn't solve your communication problems, then you can solder in whatever resistors work of your application in the open spaces for R7 and R8. Hopefully, all these pull-up resistors will not be needed, and you can leave the setup as-is.</p>
+    <p>From experience, we have found that the ESP32-DevKitC-V4 requires the two jumpers on the back to be cut: JP3 and JP4. The same is (probably) not true of the Olimex-POE boards.</p>
     <div>
         <img src="img/rd-i2c.png" height="350px">
         <img src="img/rd-i2c-rear.png" height="350px">
