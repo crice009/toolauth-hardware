@@ -16,6 +16,9 @@ fp-info-cache
 mh-custom-v1.3-backups/*
 reader-daughter-backups/*
 
+V1.3/mh-custom-v1.3-backups/*
+
+
 # Netlist files (exported from Eeschema)
 *.net
 
