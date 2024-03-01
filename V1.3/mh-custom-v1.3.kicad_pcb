@@ -54431,7 +54431,7 @@
 		)
 	)
 	(gr_text "Stage 1"
-		(at 78.5919 85.487 -230)
+		(at 77.725 86.45 355)
 		(layer "F.SilkS")
 		(uuid "ab73b773-2f80-4336-abfb-8f9f63313605")
 		(effects

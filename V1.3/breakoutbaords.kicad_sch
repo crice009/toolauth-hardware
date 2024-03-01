@@ -5584,7 +5584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101526_JST-Sales-America-UBAS-4R-D14D-4D-LF-SN_C265461.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C32896/C32896"
 			(at 146.05 78.74 0)
 			(effects
 				(font
@@ -5602,7 +5602,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C265461"
+		(property "JLCPCB Part #" "C32896"
 			(at 142.24 77.47 0)
 			(effects
 				(font

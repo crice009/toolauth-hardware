@@ -59,7 +59,27 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|65096666|97523041|d38e7111-1bfe-402e-a2dd-ede23009e1d0|066e65b1-1723-45ad-9e18-f895d07e876e",
+        "courtyards_overlap|123158028|102960601|0a21bc05-7f83-495d-93d5-6b9650e81588|4210b645-8c8c-490c-a1eb-18d0de2e1c3a",
+        "courtyards_overlap|124544999|32970001|dd284d08-8cd5-48e9-9266-fb8c5bb53bf5|fe781acf-05ec-4eea-9ea4-06aa359fcfbe",
+        "courtyards_overlap|124544999|42970001|649739d5-0fbc-44a6-8be4-aa4b8c4722ea|fe781acf-05ec-4eea-9ea4-06aa359fcfbe",
+        "courtyards_overlap|124544999|52970001|2c72f0ca-481e-4a08-8746-79a2d4dec7b5|649739d5-0fbc-44a6-8be4-aa4b8c4722ea",
+        "courtyards_overlap|124544999|62970001|0919b5bb-c6ea-45fc-bfff-2090d143bd46|2c72f0ca-481e-4a08-8746-79a2d4dec7b5",
+        "courtyards_overlap|124544999|72970001|0919b5bb-c6ea-45fc-bfff-2090d143bd46|567952fe-0c29-4c5a-9879-8bf59b9a5d3b",
+        "courtyards_overlap|124544999|82970001|567952fe-0c29-4c5a-9879-8bf59b9a5d3b|e8b0f63b-cd7f-4949-a45b-4a376ef0e259",
+        "courtyards_overlap|124544999|92970001|0a21bc05-7f83-495d-93d5-6b9650e81588|e8b0f63b-cd7f-4949-a45b-4a376ef0e259",
+        "lib_footprint_mismatch|41525000|42600000|7b914e90-45bf-415c-a2f4-d73e654c90ef|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|64385000|47650000|0bd2b08f-b512-4af3-9eb0-033a894f22c4|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|78515000|105070000|2ecd0a63-f5d7-4d41-86e2-c8e9d68aed86|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|38552000|94814700|066e65b1-1723-45ad-9e18-f895d07e876e|3fbf0b0d-903e-4096-9c54-d1e7db2b47d0|F.Cu",
+        "starved_thermal|44680000|74729000|066e65b1-1723-45ad-9e18-f895d07e876e|2f09cffd-2403-484c-b61a-3d53b3e8d42e|B.Cu",
+        "starved_thermal|48381800|94774700|066e65b1-1723-45ad-9e18-f895d07e876e|c41cfc44-638e-4084-8d7b-65d749edeab5|F.Cu",
+        "starved_thermal|50832366|93199700|066e65b1-1723-45ad-9e18-f895d07e876e|957586e1-2fa2-4258-9c51-8fe33ef6023b|F.Cu",
+        "starved_thermal|60905000|88167500|066e65b1-1723-45ad-9e18-f895d07e876e|089dfaf4-e4d9-440f-9e1f-79d7f9ae32f6|F.Cu",
+        "starved_thermal|71225000|64600000|066e65b1-1723-45ad-9e18-f895d07e876e|3922a494-c368-4d89-ad37-9587197ee286|B.Cu",
+        "starved_thermal|71225000|64600000|066e65b1-1723-45ad-9e18-f895d07e876e|3922a494-c368-4d89-ad37-9587197ee286|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -514,9 +534,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/microcontroller/lightsounds/dcp1": "DC-Power"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "AC-Power",
