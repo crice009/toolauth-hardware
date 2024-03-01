@@ -3712,10 +3712,10 @@
 		(uuid "b29e14a1-dd44-472a-b285-c4d2491ec434")
 	)
 	(junction
-		(at 100.33 138.43)
+		(at 100.33 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de3b8edb-af45-4a2c-8e7d-d7548d298b35")
+		(uuid "c86d8950-6f4b-4e06-a4e3-31ccb69d1861")
 	)
 	(junction
 		(at 142.24 88.9)
@@ -4443,7 +4443,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 138.43) (xy 101.6 138.43)
+			(xy 100.33 153.67) (xy 101.6 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4619,7 @@
 	)
 	(text "D0/RX"
 		(exclude_from_sim no)
-		(at 103.632 143.764 0)
+		(at 103.886 143.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4638,6 +4638,17 @@
 		)
 		(uuid "58b43f65-b9fe-4c9f-a476-bd1fb4e77f32")
 	)
+	(text "out only"
+		(exclude_from_sim no)
+		(at 116.332 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://learn.adafruit.com/adafruit-feather/feather-specification#3-dot-3v-output-2861843")
+		)
+		(uuid "64540799-9532-47d2-acdf-59324545af05")
+	)
 	(text "Dual I2C Connections"
 		(exclude_from_sim no)
 		(at 57.15 58.42 0)
@@ -4651,9 +4662,9 @@
 		)
 		(uuid "80494b96-f81d-4593-8d51-3541fc1beef5")
 	)
-	(text " vbus"
+	(text " vUSB"
 		(exclude_from_sim no)
-		(at 56.642 161.29 0)
+		(at 45.466 164.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4684,9 +4695,9 @@
 		)
 		(uuid "ae06d842-6752-4d53-b250-882c930b1567")
 	)
-	(text " vbus"
+	(text " vBATTERY"
 		(exclude_from_sim no)
-		(at 56.896 166.37 0)
+		(at 54.864 166.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4774,6 +4785,27 @@
 			(justify left bottom)
 		)
 		(uuid "fd3ef449-07c3-401c-ac3f-d0689e708a27")
+	)
+	(text "NOTE: all pins labeled with blue text\nshould not be used in this design, as \nthey have specified roles in feathers."
+		(exclude_from_sim no)
+		(at 64.008 173.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fdc07e24-b0aa-4196-88a5-b46ce30c41f9")
+	)
+	(text "SPARE"
+		(exclude_from_sim no)
+		(at 103.632 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://learn.adafruit.com/adafruit-feather/feather-specification#other-pins-2861847")
+		)
+		(uuid "fe2c579e-6d40-47f8-b865-beea618c38e3")
 	)
 	(global_label "SCL"
 		(shape input)
@@ -4887,7 +4919,7 @@
 	)
 	(global_label "3vRead-Bypass"
 		(shape input)
-		(at 101.6 138.43 0)
+		(at 101.6 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4897,7 +4929,7 @@
 		)
 		(uuid "2a721bf5-01e7-4596-903f-af27fbea3a60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.5831 138.43 0)
+			(at 119.5831 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3VA"
 			(at 116.078 171.45 0)
 			(effects
 				(font
@@ -6320,11 +6352,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 68.58 62.23 0)
+			(at 71.12 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
