@@ -3943,7 +3943,7 @@
 				)
 			)
 		)
-		(property "Value" "H/L1"
+		(property "Value" "3.5mm"
 			(at 0 -10 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26139,7 +26139,7 @@
 				)
 			)
 		)
-		(property "Value" "N/L2"
+		(property "Value" "3.5mm"
 			(at 0 -10 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31857,7 +31857,7 @@
 				)
 			)
 		)
-		(property "Value" "VOLTS"
+		(property "Value" "3.5mm"
 			(at 0 -10 0)
 			(layer "F.Fab")
 			(hide yes)
