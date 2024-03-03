@@ -6,7 +6,18 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Cardsystem Combined-Use Feather Wing")
+		(date "2024-03-02")
+		(rev "1.3.1")
+		(company "MakeHaven")
+		(comment 1 "Feather Wing compatable Board")
+		(comment 2 "Primary use: tool control & RFID card reader")
+		(comment 3 "Tool control by onboard multi-stage Relays - powered by input AC voltage")
+		(comment 4 "Add daughter board for RFID card read: I2C intended, but SPI could work as well")
+		(comment 5 "other extensions possible, as specified in Docs")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -46638,6 +46649,16 @@
 		(layer "B.SilkS")
 		(uuid "063c9d21-3dcc-4fc2-b184-60ef7db41ba7")
 	)
+	(gr_line
+		(start 74.325 33.87)
+		(end 67.705 33.87)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "092f946c-e02c-4490-90ef-a816c6158657")
+	)
 	(gr_poly
 		(pts
 			(xy 129.952973 114.1567) (xy 86.45226 114.1567) (xy 86.45226 107.062569) (xy 86.450761 106.934929)
@@ -48730,6 +48751,16 @@
 		(layer "B.SilkS")
 		(uuid "70326d7e-9b73-4430-bb83-f5fa03c84a4d")
 	)
+	(gr_line
+		(start 74.325 30.55)
+		(end 74.325 33.87)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7208e62b-4227-45aa-a5c8-9fc59631e999")
+	)
 	(gr_poly
 		(pts
 			(xy 42.294655 78.789992) (xy 42.098997 79.083496) (xy 41.907153 79.380474) (xy 41.719145 79.680889)
@@ -49198,6 +49229,16 @@
 		(layer "B.SilkS")
 		(uuid "87784ff4-fb95-4a61-8c16-4d3351d61679")
 	)
+	(gr_line
+		(start 74.325 30.55)
+		(end 67.695 30.55)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "88259286-b34a-4694-956c-f07120c5fa27")
+	)
 	(gr_poly
 		(pts
 			(xy 128.724366 87.449684) (xy 127.940141 87.449684) (xy 127.873781 87.448437) (xy 127.808962 87.444695)
@@ -49262,6 +49303,16 @@
 		(fill solid)
 		(layer "B.SilkS")
 		(uuid "8d47d5ad-25f9-428f-900d-75f7e963e3c9")
+	)
+	(gr_line
+		(start 71.015 33.87)
+		(end 71.01 30.55)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8d6b5b9c-b4da-4fdf-a745-3c1953766c43")
 	)
 	(gr_poly
 		(pts
@@ -49404,8 +49455,8 @@
 		(uuid "934da9de-7ab7-41db-b04a-0737f17e9c00")
 	)
 	(gr_line
-		(start 74.873116 30.402956)
-		(end 74.876884 46.197043)
+		(start 38.445 35.65)
+		(end 38.476884 47.517044)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -49727,6 +49778,16 @@
 		(fill solid)
 		(layer "B.SilkS")
 		(uuid "a3e29f78-74de-4864-8898-e08405603c39")
+	)
+	(gr_line
+		(start 67.695 30.55)
+		(end 67.705 33.87)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "a847a86c-a59d-4750-83e2-9cbcde9dd54a")
 	)
 	(gr_poly
 		(pts
@@ -55116,8 +55177,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Use at your own risk"
-		(at 74.175 38.15 90)
+	(gr_text "Use at own risk"
+		(at 37.756884 41.517044 90)
 		(layer "B.SilkS")
 		(uuid "24d5e0d7-5d93-451a-a449-c354cdc9d88a")
 		(effects
@@ -55140,30 +55201,28 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "R/G LED"
-		(at 67.695 25.42 0)
+	(gr_text "red"
+		(at 71.425 25.77 0)
 		(layer "B.SilkS")
 		(uuid "3db767f5-1119-40ca-a5f0-325e6c99800e")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
-	(gr_text "key"
-		(at 79.435 27.33 90)
+	(gr_text "bypass key"
+		(at 79.465 22.81 90)
 		(layer "B.SilkS")
 		(uuid "492c20c9-a250-46c3-9938-3db02deda9c5")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "3 stages of relays\nFeather [WiFi] microcontroller\n2x E-Stop Integration\nCurrent Sensor"
@@ -55178,6 +55237,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "https://learn.adafruit.com/\nadafruit-feather/feather-specification"
+		(at 78.335 31.75 90)
+		(layer "B.SilkS")
+		(uuid "6708784c-e936-40ba-900f-b4eafd16c2e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Hardware:\n"
 		(at 81.925 94.8 90)
 		(layer "B.SilkS")
@@ -55188,6 +55259,42 @@
 				(thickness 0.3)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 74.355 31.89 0)
+		(layer "B.SilkS")
+		(uuid "82947bcb-c39c-41bc-a0d7-bc44d263a5ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "grn"
+		(at 76.755 25.67 0)
+		(layer "B.SilkS")
+		(uuid "85f11ad8-a91a-4968-8b3d-a006244d2c53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "status LEDs"
+		(at 77.225 29.47 0)
+		(layer "B.SilkS")
+		(uuid "8a720c68-926e-4040-83fa-103b5e8a200c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Vincent, Lior,\nJ.R., \nChris,\n& Ashley"
@@ -55252,27 +55359,39 @@
 		)
 	)
 	(gr_text "makehaven.org/openshop"
-		(at 68.225 53.5 90)
+		(at 68.255 53.48 90)
 		(layer "B.SilkS")
 		(uuid "d723d36d-2546-43cb-ab83-d1c07166f83b")
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.4)
+				(thickness 0.25)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "Keep fingers out of \nHigh Voltage Area"
-		(at 78.275 28.25 90)
+	(gr_text "Keep fingers out of High Voltage Area"
+		(at 80.815 28.99 90)
 		(layer "B.SilkS")
 		(uuid "dedddc32-e7c9-48f0-bc85-63d562275a37")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.3)
+				(size 1.2 1.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "5V"
+		(at 69.735 32.01 0)
+		(layer "B.SilkS")
+		(uuid "f91e6fa5-75f7-4be8-b61c-a47db05cf207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "red"
